@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="shortcut icon" href="media/logo.jpeg">
+</head>
+<body>
+    <div class="container">
+    <div class="main-box">
+        <h1>Войти</h1>
+        <form action="">
+            <div class="input-box">
+                <span class="icon"><i data-feather="lock"></i></span>
+                <input type="password" required>
+                <label>password</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><i data-feather="mail"></i></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="check">
+                <label><input type="checkbox">Запомнить вас?</label>
+                <a href="#">Забыл пароль?</a>
+            </div>
+            <button type="submit" class="btn">Войти</button>
+            <div class="register">
+                <p>У вас нет аккаунта?<a href="#" class="register-link">Авторизоваться</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    feather.replace();
+</script>
+</body>
+</html>
